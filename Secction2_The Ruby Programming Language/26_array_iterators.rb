@@ -38,3 +38,27 @@ p a.include?("Oliveira")
 
 #PUSH include new item
 p a.push("new item")
+
+#POP remove last item
+b = a.pop
+p a
+p b
+
+puts
+#JOIN
+puts a.join
+puts a.join("_")
+puts a.join(" ,")
+
+puts
+#SPLIT
+b = a.join("_")
+puts b
+p b.split
+p b.split("_") #"refence"
+
+puts
+#"Automatic" array (%w)
+p %w(My name is Daniel and Ruby is great)
+
+#
