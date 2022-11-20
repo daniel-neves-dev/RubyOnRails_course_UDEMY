@@ -4,6 +4,7 @@ puts a
 puts
 p a.last #last array item
 
+puts
 #RANGE method (..)
 r = 1..50
 p r
@@ -61,4 +62,39 @@ puts
 #"Automatic" array (%w)
 p %w(My name is Daniel and Ruby is great)
 
-#
+puts
+#Go through array (FOR)
+z = %w(Hi, my name is Daniel it is great and Ruby is amazing!!!)
+for i in z
+    puts i
+end
+
+puts         
+for e in z
+    print e + " "
+end
+
+puts
+#EACH method
+z.each do |var|
+    print var + " "
+end
+
+puts
+#or in one line
+z.each {|var| print var + " "} 
+puts
+puts
+
+#SELECT?
+n = (1..100).to_a.shuffle
+print n
+puts
+puts
+print n.select {|number| number.odd?}
+puts
+puts
+print n.select{|number| number.even?}
+puts
+puts
+   
