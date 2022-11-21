@@ -2,6 +2,16 @@ users = [
     {username: "daniel", password: "password1"},
     {username: "paula", password: "password2"}
 ]
+
+def enter_program(user_name, user_password, list_users)
+    users.each do |list_users|
+        if list_users[:username] == user_name && list_users[:password] == user_password
+            return puts list_users
+        end
+    end
+    puts "Credentials were not correct"
+end
+
 puts
 puts "Welcome to the authenticator"
 25.times{print "*"}
@@ -16,12 +26,7 @@ puts "Enter your password:"
 user_password = gets.chomp
 
 puts
-users.each do |user|
-    if user[:username] == user_name && user[:password] == user_password
-        puts user
-        break      
-    end
-end
-puts "Credentials were not correct"
+authentication = enter_program(user_name, user_password, list_users)
+p authentication
 
 
