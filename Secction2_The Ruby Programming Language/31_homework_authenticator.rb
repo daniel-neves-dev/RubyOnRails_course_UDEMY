@@ -1,9 +1,10 @@
 users = [
     {username: "daniel", password: "password1"},
-    {username: "paula", password: "password2"}
+    {username: "paula", password: "password2"},
+    {username: "ricardo", password: "password3"}
 ]
 
-def enter_program(user_name, user_password, list_users)
+def enter_program(user_name, user_password, users)
     users.each do |list_users|
         if list_users[:username] == user_name && list_users[:password] == user_password
             return puts list_users
@@ -26,7 +27,7 @@ puts "Enter your password:"
 user_password = gets.chomp
 
 puts
-authentication = enter_program(user_name, user_password, list_users)
+authentication = enter_program(user_name, user_password, users)
 p authentication
 
 
