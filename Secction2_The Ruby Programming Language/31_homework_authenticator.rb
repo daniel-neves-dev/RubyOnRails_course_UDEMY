@@ -10,7 +10,8 @@ def enter_program(user_name, user_password, users)
             return puts list_users
         end
     end
-    puts "Credentials were not correct"
+    puts "Credentials were not correct..."
+
 end
 
 puts
