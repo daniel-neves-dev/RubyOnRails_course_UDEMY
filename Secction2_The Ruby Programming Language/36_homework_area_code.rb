@@ -11,25 +11,34 @@ dial_book = {
   "Lancaster" => "717"
 }
 
-def get_city_names(dial_book)
+#Show list city
+def city_list(dial_book)
   dial_book.keys
 end
 
-def area_code(city, key)
-  city[key]
+#City area code
+def city_code(dial_book, city)
+  dial_book[city]
 end
 
+puts
+15.times{print "*"}
+puts
+puts "CITY AREA CODE"
+15.times{print "*"}
+puts
+
 loop do
-  print "\nDo you want to verify a city area code? (Y/N):"
-  prompt = gets.chomp.downcase
-  break if prompt!="y"
-  puts get_city_names(dial_book)
-  puts "\nWhat city do you want to verify?"
+  print "\nDo you want to lookup an area nased on a city name? (Y/N): "
+  anwser = gets.chomp.downcase
+  break if anwser != "y"
+  puts city_list(dial_book) #Show list city
+
+  puts "\nType the city name:"
   city = gets.chomp
   if dial_book.include?(city)
-    puts "The area code for #{city} is: #{area_code(dial_book, city)}"
+    puts "The area code for #{city} is #{city_code(dial_book, city)}" #Show code area
   else
-    puts
-    puts "There is no city with this name in the list."
+    puts "This city is not in the list."
   end
 end
