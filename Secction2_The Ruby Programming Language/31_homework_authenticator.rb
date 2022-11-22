@@ -1,16 +1,16 @@
 users = [
-    {username: "daniel", password: "password1"},
-    {username: "paula", password: "password2"},
-    {username: "ricardo", password: "password3"}
+	{username: "daniel", password: "password1"},
+	{username: "paula", password: "password2"},
+	{username: "ricardo", password: "password3"}
 ]
 
 def enter_program(user_name, user_password, users)
-    users.each do |list_users|
-        if list_users[:username] == user_name && list_users[:password] == user_password
-            return puts list_users
-        end
-    end
-    puts "Credentials were not correct..."
+	users.each do |list_users|
+		if list_users[:username] == user_name && list_users[:password] == user_password
+			return puts list_users
+		end
+	end
+	puts "Credentials were not correct..."
 
 end
 
