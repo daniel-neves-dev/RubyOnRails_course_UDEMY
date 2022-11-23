@@ -20,11 +20,11 @@ def verify_digital_password(password)
   BCrypt::Password.new(password) #BCrypt method
 end
 
-#Call users list
+#Call users list(users)
 def create_secure_users(list_users)
   list_users.each do |user_record|#variavel
-    puts user_record[:password]#from the list
+    user_record[:password] = create_digtal_password(user_record[:password])#from the list
   end
 end
 
-create_secure_users(users)
+puts create_secure_users(users)
