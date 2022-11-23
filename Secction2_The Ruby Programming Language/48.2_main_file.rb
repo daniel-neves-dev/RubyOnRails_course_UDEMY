@@ -23,10 +23,9 @@ end
 #Validation user and password
 def self.authenticate_user(username, password, list_users)#to compare username and passord from the list
   list_users.each do |user_record|
-    if user_record[:username] == username && self.verify_digital_password(user_record[:passord]) == password
+    if user_record[:username] == username && verify_digital_password(user_record[:passord]) == password
       return user_record
     end
   end
-  puts "Credentials were not correct"
 end
 
