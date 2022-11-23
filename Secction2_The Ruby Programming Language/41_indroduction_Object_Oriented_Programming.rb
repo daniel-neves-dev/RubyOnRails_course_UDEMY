@@ -1,23 +1,24 @@
 #Class example
-class User
-  #Attribute accesor
-  attr_accessor :name, :email
+class Student
+  #attributes(@something)
+  #to access the attributes (attr_accessor)
+  attr_accessor :first_name,:last_name, :email, :username #class identities
+  @first_name
+  @last_name
+  @email
+  @username
+  @password
 
-  def initialize(name, email)
-    @name = name #istance variable
-    @email = email #istance variable
-  end
-
-  def run
-    puts "Hey I'm running"
-  end
-
-  def self.identify_yourself
-    puts "Hey I'm a class method"
-  end
-
+  
 end
+  
+daniel = Student.new
+daniel.first_name = "Daniel"
+daniel.last_name = "Oliveira"
+daniel.email = "daniel@exemplo.com"
+daniel.username = "daniel1"
 
-user = User.new("Daniel","daniel@example.com") #New Class and def initialize
-user.run #def run 
-User.identify_yourself #def identify_yourself
+puts daniel.first_name 
+puts daniel.last_name
+puts daniel.email 
+puts daniel.username 
