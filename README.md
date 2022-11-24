@@ -1,5 +1,5 @@
-# Curso_RubyOnRails_UDEMY
- Curso de 48 horas de Ruby on Rails da UDEMY_Rob_Percival
+# Curso_RubyOnRails_UDEMY 🎓 
+ 48 hours Ruby on Rails course UDEMY
  
  ### Secction2_The Ruby Programming Language
  
