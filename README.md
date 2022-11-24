@@ -1,4 +1,4 @@
-# Curso_RubyOnRails_UDEMY 🎓 
+# RubyOnRails_course_UDEMY 🎓 
  48 hours Ruby on Rails course UDEMY
  
  ### Secction2_The Ruby Programming Language
