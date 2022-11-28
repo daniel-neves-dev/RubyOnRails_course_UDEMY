@@ -1,1 +1,0 @@
-puts "testing app 7"
