@@ -1,7 +1,7 @@
 # RubyOnRails_course_UDEMY 🎓 
  48 hours Ruby on Rails course UDEMY
  
- ### Secction2_The Ruby Programming Language
+ ### Section2_The Ruby Programming Language
  
 * [13_Introduction to section 2](https://github.com/daniel-neves-dev/Curso_RubyOnRails_UDEMY/blob/main/Secction2_The%20Ruby%20Programming%20Language/13_Introduction%20to%20section%202.rb)
 
