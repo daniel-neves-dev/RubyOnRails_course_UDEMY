@@ -23,7 +23,7 @@
 
 * [36_homework_area_code](https://github.com/daniel-neves-dev/RubyOnRails_course_UDEMY/blob/main/Section2_Ruby_Programming_Language/36_homework_area_code.rb)
 
-* [41_indroduction_Object_Oriented_Programming](https://github.com/daniel-neves-dev/RubyOnRails_course_UDEMY/blob/main/Section2_Ruby_Programming_Language/41_indroduction_Object_Oriented_Programming.rb)
+* [41_introduction_Object_Oriented_Programming](https://github.com/daniel-neves-dev/RubyOnRails_course_UDEMY/blob/main/Section2_Ruby_Programming_Language/41_indroduction_Object_Oriented_Programming.rb)
 
 * [46_bcrypt-ruby(password)](https://github.com/daniel-neves-dev/RubyOnRails_course_UDEMY/blob/main/Section2_Ruby_Programming_Language/46_bcrypt-ruby(password).rb)
 
